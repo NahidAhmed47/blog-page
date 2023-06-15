@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Main from './layouts/Main';
 import Home from './pages/Home/Home/Home';
+import Events from './pages/Events/Events';
+import Jobs from './pages/Jobs/Jobs';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,14 @@ const router = createBrowserRouter([
       {
         path: '/', 
         element: <Home></Home>
+      },
+      {
+        path: '/events', 
+        element: <Events></Events>
+      },
+      {
+        path: '/jobs', 
+        element: <Jobs></Jobs>
       }
     ]
   }

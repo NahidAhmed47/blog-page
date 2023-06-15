@@ -3,5 +3,11 @@
 @tailwind utilities;
 
 .max-container{
-  @apply max-w-[1280px] mx-auto
+  @apply max-w-[1120px] mx-auto
+}
+.unActive-nav{
+  @apply text-base font-serif font-semibold text-[#232f4b] hover:text-[#0d6efd] border-b border-white hover:border-[#0d6efd] duration-100 flex items-center
+}
+.isActive{
+  @apply text-base font-serif font-semibold text-[#0d6efd] border-b border-white hover:border-[#0d6efd] duration-100 flex items-center
 }
