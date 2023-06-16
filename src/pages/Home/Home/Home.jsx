@@ -38,7 +38,7 @@ const Home = () => {
             <p className="text-sm font-serif font-medium">Publish Blog</p>
           </div>
         </div>
-        <div className="">
+        <div>
           <h1 className="text-center pt-1 text-base font-semibold font-serif text-[#0d6efd] border-b">
             Sponsored
           </h1>
@@ -46,6 +46,17 @@ const Home = () => {
             {sponsoredData?.map((data) => (
               <Sponsored key={data.id} data={data}></Sponsored>
             ))}
+          </div>
+          <div className="w-full h-full mt-6 space-y-4">
+            <div className="w-full bg-slate-100 h-12 flex items-center justify-center text-gray-300">
+              Ad
+            </div>
+            <div className="w-full bg-slate-100 h-12 flex items-center justify-center text-gray-300">
+              Ad
+            </div>
+            <div className="w-full bg-slate-100 h-12 flex items-center justify-center text-gray-300">
+              Ad
+            </div>
           </div>
         </div>
       </div>

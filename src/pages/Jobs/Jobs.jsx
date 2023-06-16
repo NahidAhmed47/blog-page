@@ -46,6 +46,17 @@ const Jobs = () => {
               <Sponsored key={data.id} data={data}></Sponsored>
             ))}
           </div>
+          <div className="w-full h-full mt-6 space-y-4">
+            <div className="w-full bg-slate-100 h-12 flex items-center justify-center text-gray-300">
+              Ad
+            </div>
+            <div className="w-full bg-slate-100 h-12 flex items-center justify-center text-gray-300">
+              Ad
+            </div>
+            <div className="w-full bg-slate-100 h-12 flex items-center justify-center text-gray-300">
+              Ad
+            </div>
+          </div>
         </div>
       </div>
       {/* news feeds */}
