@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Sponsored from "../../../components/Sponsored";
+import NewsFeed from "../../../components/newsFeed";
+import UpcomingEvents from "../../Shared/UpcomingEvents/UpcomingEvents";
 
 const Home = () => {
   const [sponsoredData, setSponsoredData] = useState([]);
@@ -10,13 +12,13 @@ const Home = () => {
       .then((data) => setSponsoredData(data));
   }, []);
   useEffect(() => {
-    fetch("/public/data/upcomingEvents.json")
+    fetch("/public/data/blog.json")
       .then((res) => res.json())
       .then((data) => setNewsFeedData(data));
   }, []);
   return (
-    <div className="grid grid-cols-4 min-h-screen">
-      <div className="col-start-1 col-end-2 border-r min-h-screen w-full p-2  space-y-10">
+    <div className="md:grid grid-cols-4 min-h-screen relative max-container">
+      <div className="col-start-1 col-end-2 border-r min-h-screen p-2  space-y-10 w-[200px] fixed hidden md:block">
         <div className="space-y-3 w-full">
           <div className="w-full text-center px-2 py-1 hover:bg-slate-100 text-[#0d6efd] hover:text-gray-600 bg-slate-50 duration-200">
             <p className="text-sm font-serif font-medium">Most Popular</p>
@@ -49,7 +51,11 @@ const Home = () => {
         </div>
       </div>
       {/* news feeds */}
-      <div className="col-start-2 col-end-5">dfdf</div>
+      <div className="col-start-2 col-end-5">
+        {
+          newsFeedData?.map(data => <NewsFeed key={data._id} data={data}></NewsFeed>)
+        }
+      </div>
     </div>
   );
 };

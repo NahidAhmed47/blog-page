@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "title": "New Study Reveals the Benefits of Meditation",
+        "author": "John Smith",
+        "published_date": "2023-06-01",
+        "likes": 120,
+        "comment": 15,
+        "share": 10,
+        "image": "https://media.istockphoto.com/id/1198229233/photo/getting-close-enough-to-capture-the-details.jpg?s=612x612&w=0&k=20&c=8ssdkOODW1LIVQKvvUDB1UrNOeXtGHT0ey6oU2_WVhs=",
+        "description": "A recent study highlights the positive effects of meditation on stress reduction and overall well-being. Researchers found that regular meditation practice can lead to improved mental clarity and increased feelings of calmness."
+      },
+      {
+        "id": 2,
+        "title": "Latest Smartphone Model Announced by Tech Company",
+        "author": "Jane Doe",
+        "published_date": "2023-06-03",
+        "likes": 75,
+        "comment": 8,
+        "share": 5,
+        "image": "https://media.istockphoto.com/id/1397678880/photo/closeup-of-a-black-businesswoman-typing-on-a-laptop-keyboard-in-an-office-alone.jpg?s=612x612&w=0&k=20&c=Qj9WWpAoKB0W7k-c68Y-8neN6c1mCExnEO9UKG-eoXY=",
+        "description": "Tech Company has unveiled their newest smartphone model, packed with cutting-edge features and a sleek design. The device boasts a powerful processor, high-resolution display, and an advanced camera system, making it a top contender in the market."
+      },
+      {
+        "id": 3,
+        "title": "Breaking News: Historic Landmark Restoration Completed",
+        "author": "Mark Johnson",
+        "published_date": "2023-06-05",
+        "likes": 210,
+        "comment": 30,
+        "share": 20,
+        "image": "https://media.istockphoto.com/id/1249204817/photo/woman-photographing-fresh-green-soup.jpg?s=612x612&w=0&k=20&c=XWkCOGjS2MiVNQaG5fGgE73RDY5ZAOjQjp_ymwC1h_A=",
+        "description": "After years of meticulous restoration efforts, the iconic historic landmark has been fully restored to its former glory. The restoration team carefully preserved the original architectural features while integrating modern amenities, ensuring the landmark's preservation for future generations."
+      },
+      {
+        "id": 4,
+        "title": "World Championship Results: Team X Emerges Victorious",
+        "author": "Emily Wilson",
+        "published_date": "2023-06-08",
+        "likes": 320,
+        "comment": 45,
+        "share": 30,
+        "image": "https://media.istockphoto.com/id/1252684502/photo/professional-blogger-working-on-his-new-post-for-social-media-at-home-closeup-creative.jpg?s=612x612&w=0&k=20&c=VR7V3Hn1HKjMQdykk2zjQ-2Xjsiw3tewZFZMp6swpog=",
+        "description": "In an intense competition, Team X showcased their exceptional skills and determination to claim victory in the World Championship. The team's exceptional teamwork, strategy, and precision impressed both fans and judges, solidifying their position as champions in their respective sport."
+      },
+      {
+        "id": 5,
+        "title": "New Research Advances in Renewable Energy Sources",
+        "author": "Sarah Thompson",
+        "published_date": "2023-06-12",
+        "likes": 150,
+        "comment": 20,
+        "share": 12,
+        "image": "https://media.istockphoto.com/id/1257108641/photo/camera-on-sound-on.jpg?s=612x612&w=0&k=20&c=IMMob1GcC1MsdkYR5DRXToaLg6zUEpqxTAsKcbZBgtI=",
+        "description": "Recent breakthroughs in renewable energy research have paved the way for more sustainable and efficient power sources. Scientists have developed innovative technologies that harness solar, wind, and hydro energy, promising a greener future and reduced reliance on fossil fuels."
+      },
+      {
+        "id": 6,
+        "title": "Health Tips for Maintaining a Balanced Lifestyle",
+        "author": "Alexandra Roberts",
+        "published_date": "2023-06-15",
+        "likes": 90,
+        "comment": 10,
+        "share": 8,
+        "image": "https://media.istockphoto.com/id/905508166/photo/female-food-blogger-using-laptop-and-working-from-home.jpg?s=612x612&w=0&k=20&c=GetQoHuRJo5u-QDFjQ3ntaQfADYCCKoRwUZXLS-plJA=",
+        "description": "Discover simple yet effective strategies for maintaining a healthy and balanced lifestyle. From regular exercise routines to nutritious eating habits, these tips will help you improve your overall well-being and achieve optimal health."
+      },
+      {
+        "id": 7,
+        "title": "Art Exhibition Showcases Local Talent",
+        "author": "Michael Anderson",
+        "published_date": "2023-06-18",
+        "likes": 250,
+        "comment": 35,
+        "share": 18,
+        "image": "https://media.istockphoto.com/id/1094254372/photo/social-media-never-fails-to-tickle-the-mind.jpg?s=612x612&w=0&k=20&c=Y-_QDNSHUj56j-YeyIE1MnKU_WEyB7nnhGxeZyMeX0s=",
+        "description": "A local art gallery is hosting an exhibition that highlights the works of talented artists in the community. From paintings to sculptures, this diverse collection showcases the creativity and artistic expressions of the region's emerging and established artists."
+      },
+      {
+        "id": 8,
+        "title": "Space Exploration: Mission to Mars",
+        "author": "Robert Johnson",
+        "published_date": "2023-06-21",
+        "likes": 380,
+        "comment": 50,
+        "share": 25,
+        "image": "https://media.istockphoto.com/id/1368872054/vector/online-news-search-and-reading-news-updates-news-websites-information-on-newspapers-public.jpg?s=612x612&w=0&k=20&c=lnqRsfz6XqoOSHNMXCazLduB5RELyp9e-M0UoKQq4jY=",
+        "description": "Exciting developments in space exploration have sparked renewed interest in a future mission to Mars. Scientists and space agencies worldwide are collaborating to design innovative spacecraft, conduct research, and plan a potential manned mission to the red planet."
+      }                                                
+]
