@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Sponsored from "../../../components/Sponsored";
 import NewsFeed from "../../../components/newsFeed";
-import UpcomingEvents from "../../Shared/UpcomingEvents/UpcomingEvents";
 
 const Home = () => {
   const [sponsoredData, setSponsoredData] = useState([]);
