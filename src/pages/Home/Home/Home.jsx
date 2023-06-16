@@ -6,12 +6,12 @@ const Home = () => {
   const [sponsoredData, setSponsoredData] = useState([]);
   const [newsFeedData, setNewsFeedData] = useState([]);
   useEffect(() => {
-    fetch("/public/data/sponsored.json")
+    fetch("https://blog-page-server.vercel.app/sponsored")
       .then((res) => res.json())
       .then((data) => setSponsoredData(data));
   }, []);
   useEffect(() => {
-    fetch("/public/data/blog.json")
+    fetch("https://blog-page-server.vercel.app/blogs")
       .then((res) => res.json())
       .then((data) => setNewsFeedData(data));
   }, []);

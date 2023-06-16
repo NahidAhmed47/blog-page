@@ -4,7 +4,7 @@ import UpcomingEvent from "../../../components/UpcomingEvent";
 const UpcomingEvents = () => {
   const [eventsData, setEventsData] = useState([]);
   useEffect(() => {
-    fetch("/public/data/upcomingEvents.json")
+    fetch("https://blog-page-server.vercel.app/upcoming-events")
       .then((res) => res.json())
       .then((data) => setEventsData(data));
   }, []);
