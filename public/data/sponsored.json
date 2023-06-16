@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Which Gadgets Gonna Make You Free",
+        "date": "Jan 6, 2023",
+        "image": "https://i.ibb.co/SJJYx2v/sponsored2.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Things to do in New York This Summer",
+        "date": "Jan 12, 2023",
+        "image": "https://i.ibb.co/Q6n1bk1/sponsored1.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Why It Might Work For You",
+        "date": "Feb 7, 2023",
+        "image": "https://i.ibb.co/Rgx9pn2/sponsored4.jpg"
+    },
+    {
+        "id": 4,
+        "title": "What’s New in Your Favourite Stores",
+        "date": "Jan 6, 2023",
+        "image": "https://i.ibb.co/7Wpc9Z2/sponsored3.jpg"
+    }
+]

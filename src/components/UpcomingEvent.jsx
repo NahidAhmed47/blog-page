@@ -3,10 +3,9 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { BsStopwatch } from "react-icons/bs";
 
 const UpcomingEvent = ({ event }) => {
-  console.log(event);
   const { image, title, time, date, location } = event;
   return (
-    <div className="p-2 flex gap-1 items-center">
+    <div className="pl-3 py-2 flex gap-1 items-center">
       <div>
         <img className="max-w-[120px] " src={image} alt="" />
       </div>

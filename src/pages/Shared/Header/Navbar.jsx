@@ -43,7 +43,7 @@ const Navbar = () => {
           Jobs
         </NavLink>
       </div>
-      <div className="px-2 py-1 border rounded-full  items-center h-8 hidden md:flex">
+      <div className="px-2 py-1 border rounded-full items-center h-8 hidden md:flex w-[20%]">
         <input type="search"  className="w-full px-1 outline-none  rounded-2xl text-sm font-serif" placeholder="Search..."/>
         <FaSearch className="w-4 h-4 text-[#0d6efd]"></FaSearch>
       </div>
