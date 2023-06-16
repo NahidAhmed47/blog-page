@@ -23,7 +23,10 @@ const Navbar = () => {
           onClick={toggleMenu}
         ></FaBars>
       </div>
-      <div onClick={toggleMenu} className={`${isOpenMenu ? 'absolute top-0 left-0 h-screen bg-white border-r w-[50%] z-10 p-5 space-y-5' : 'space-x-5 hidden md:flex'}`}>
+      <div onClick={toggleMenu} className={`absolute z-20 h-screen w-full ${isOpenMenu ? 'md:hidden' : 'hidden'}`}>
+
+      </div>
+      <div className={`${isOpenMenu ? 'absolute top-0 left-0 h-screen bg-white border-r w-[50%] z-10 p-5 space-y-5' : 'space-x-5 hidden md:flex'}`}>
         <NavLink
           to="/"
           className={({ isActive }) => (isActive ? "isActive" : "unActive-nav")}
